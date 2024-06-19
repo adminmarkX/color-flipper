@@ -1,0 +1,144 @@
+/* this is my css  */
+/* this code is handmaded */
+
+* {
+    font-family: 'Montserrat', serif;
+    margin: 0;
+    padding: auto;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 2px dotted; */
+   box-shadow: 0 4px 6px rgba(0,0,0,0.2); /* add the shade underneath the navbar */ 
+
+}
+
+/* the height of the body of the app without the navbar*/
+.app-body{
+    height: 1500px;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* border: 2px dotted;  */
+}
+
+.list button{    
+    /* border: 2px dotted; */
+    border-radius: 20px;
+    height: 50px;
+    width: 150px;
+     margin: 20px; /* to space them */
+    cursor: pointer;
+    
+}
+
+.big-panel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: auto;
+    margin: auto;
+    height: 100px;
+    align-items: center; /* this makes the content in the center and not on top of the container */
+}
+
+.big-panel p{
+    justify-content: center;
+    text-align: center;
+    text-shadow: 1px;
+}
+
+
+
+.click-me{
+    /* border:2px dotted; */
+    text-align: center;
+}
+
+/* CSS code */
+.button-24 {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-24:active {
+  opacity: .5;
+}
+
+/* CSS */
+.button-28 {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.button-28:disabled {
+  pointer-events: none;
+}
+
+.button-28:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(5, 197, 44, 1.25) 0 8px 15px; /* i changed this */
+  transform: translateY(-2px);
+}
+
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
